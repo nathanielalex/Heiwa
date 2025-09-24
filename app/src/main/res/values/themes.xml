@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Heiwa" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/accent_green</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:windowBackground">@color/background_ivory</item>
+        <item name="android:textCursorDrawable">@drawable/cursor_color</item>
+
+        <item name="android:windowSplashScreenBackground">@color/background_ivory</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/heiwa_ss</item>
+        <item name="android:windowSplashScreenAnimationDuration">1000</item>
+        <item name="android:windowSplashScreenIconBackgroundColor">@color/background_ivory</item>
+    </style>
+
+    <style name="Theme.Heiwa" parent="Base.Theme.Heiwa" />
+
+    <style name="CustomActiveIndicator">
+        <item name="android:background">@drawable/active_nav_item_background</item>
+        <item name="android:layout_margin">0dp</item> <!-- optional, for tight fitting -->
+    </style>
+
+
+
+</resources>

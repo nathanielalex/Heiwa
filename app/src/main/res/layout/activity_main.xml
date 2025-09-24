@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_ivory"
+    tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/bottom_navigation_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginBottom="24dp"
+        app:cardBackgroundColor="@color/secondary_elements"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="8dp"
+        app:strokeColor="@color/secondary_elements"
+        app:strokeWidth="1dp">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            app:elevation="0dp"
+
+            app:itemBackground="@drawable/bottom_nav_item_background"
+            app:itemActiveIndicatorStyle="@style/CustomActiveIndicator"
+            app:itemIconTint="@drawable/floating_nav_icon_tint"
+
+            app:labelVisibilityMode="unlabeled"
+
+            app:menu="@menu/menu" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:id="@+id/bottom_navigation"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:elevation="8dp"-->
+
+<!--        android:background="@drawable/bottom_nav_background"-->
+
+<!--        app:menu="@menu/menu"-->
+
+<!--        app:itemIconTint="@color/accent_green"-->
+<!--        app:itemTextColor="@color/accent_green"-->
+
+<!--        app:labelVisibilityMode="labeled" />-->
+
+</RelativeLayout>
