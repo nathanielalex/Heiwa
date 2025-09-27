@@ -55,7 +55,7 @@ app/src/main
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/yourproject.git
+   git clone https://github.com/nathanielalex/Heiwa.git
    ```
 2. Open the project in **Android Studio**.
 3. Sync Gradle files.
